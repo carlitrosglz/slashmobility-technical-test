@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5331B49F277E296D002C31F4 /* GroupListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B49E277E296D002C31F4 /* GroupListCell.swift */; };
 		53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68277277E20C600C68DBA /* AppDelegate.swift */; };
 		53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68279277E20C600C68DBA /* SceneDelegate.swift */; };
 		53F6827F277E20C600C68DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F6827D277E20C600C68DBA /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5331B49E277E296D002C31F4 /* GroupListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListCell.swift; sourceTree = "<group>"; };
 		53F68274277E20C600C68DBA /* SlashTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlashTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F68277277E20C600C68DBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F68279277E20C600C68DBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5331B49D277E2956002C31F4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				5331B49E277E296D002C31F4 /* GroupListCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		53F6826B277E20C600C68DBA = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		53F6828B277E213100C68DBA /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				5331B49D277E2956002C31F4 /* cell */,
 				53F6828E277E216B00C68DBA /* controller */,
 				53F6828C277E213800C68DBA /* storyboard */,
 			);
@@ -177,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53F68290277E221000C68DBA /* GroupListViewController.swift in Sources */,
+				5331B49F277E296D002C31F4 /* GroupListCell.swift in Sources */,
 				53F68292277E223300C68DBA /* GroupDetailViewController.swift in Sources */,
 				53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */,
 				53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */,
