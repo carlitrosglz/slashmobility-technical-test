@@ -3,11 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5331B49F277E296D002C31F4 /* GroupListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B49E277E296D002C31F4 /* GroupListCell.swift */; };
+		53C36335277E677F004738BF /* HttpObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C36328277E677E004738BF /* HttpObject.swift */; };
+		53C36336277E677F004738BF /* UrlPetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3632A277E677F004738BF /* UrlPetition.swift */; };
+		53C36337277E677F004738BF /* HttpCheckConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3632B277E677F004738BF /* HttpCheckConnection.swift */; };
+		53C36338277E677F004738BF /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3632D277E677F004738BF /* GlobalVariables.swift */; };
+		53C36339277E677F004738BF /* HttpInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3632F277E677F004738BF /* HttpInterface.swift */; };
+		53C3633A277E677F004738BF /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C36331277E677F004738BF /* HttpService.swift */; };
+		53C3633B277E677F004738BF /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C36333277E677F004738BF /* GeneralHelper.swift */; };
+		53C3633C277E677F004738BF /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C36334277E677F004738BF /* HttpHelper.swift */; };
 		53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68277277E20C600C68DBA /* AppDelegate.swift */; };
 		53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68279277E20C600C68DBA /* SceneDelegate.swift */; };
 		53F6827F277E20C600C68DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F6827D277E20C600C68DBA /* Main.storyboard */; };
@@ -16,10 +24,20 @@
 		53F68290277E221000C68DBA /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6828F277E221000C68DBA /* GroupListViewController.swift */; };
 		53F68292277E223300C68DBA /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68291277E223300C68DBA /* GroupDetailViewController.swift */; };
 		53F68294277E224F00C68DBA /* GroupFavouriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68293277E224F00C68DBA /* GroupFavouriteListViewController.swift */; };
+		8451D0A9ED7795BD6A42D2F8 /* Pods_SlashTechnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35530E789E03CEA34B2D2B0D /* Pods_SlashTechnicalTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35530E789E03CEA34B2D2B0D /* Pods_SlashTechnicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlashTechnicalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5331B49E277E296D002C31F4 /* GroupListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListCell.swift; sourceTree = "<group>"; };
+		53C36328277E677E004738BF /* HttpObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpObject.swift; sourceTree = "<group>"; };
+		53C3632A277E677F004738BF /* UrlPetition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlPetition.swift; sourceTree = "<group>"; };
+		53C3632B277E677F004738BF /* HttpCheckConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpCheckConnection.swift; sourceTree = "<group>"; };
+		53C3632D277E677F004738BF /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		53C3632F277E677F004738BF /* HttpInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpInterface.swift; sourceTree = "<group>"; };
+		53C36331277E677F004738BF /* HttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		53C36333277E677F004738BF /* GeneralHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralHelper.swift; sourceTree = "<group>"; };
+		53C36334277E677F004738BF /* HttpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
 		53F68274277E20C600C68DBA /* SlashTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlashTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F68277277E20C600C68DBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F68279277E20C600C68DBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +48,8 @@
 		53F6828F277E221000C68DBA /* GroupListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewController.swift; sourceTree = "<group>"; };
 		53F68291277E223300C68DBA /* GroupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
 		53F68293277E224F00C68DBA /* GroupFavouriteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFavouriteListViewController.swift; sourceTree = "<group>"; };
+		ABDEF4B01EF64AEA50A4CAE0 /* Pods-SlashTechnicalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlashTechnicalTest.release.xcconfig"; path = "Target Support Files/Pods-SlashTechnicalTest/Pods-SlashTechnicalTest.release.xcconfig"; sourceTree = "<group>"; };
+		C1EB20C3142D0237C0436CCB /* Pods-SlashTechnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlashTechnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-SlashTechnicalTest/Pods-SlashTechnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8451D0A9ED7795BD6A42D2F8 /* Pods_SlashTechnicalTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,11 +72,55 @@
 			path = cell;
 			sourceTree = "<group>";
 		};
+		53C36327277E677E004738BF /* object */ = {
+			isa = PBXGroup;
+			children = (
+				53C36328277E677E004738BF /* HttpObject.swift */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+		53C36329277E677F004738BF /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				53C3632A277E677F004738BF /* UrlPetition.swift */,
+				53C3632B277E677F004738BF /* HttpCheckConnection.swift */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		53C3632E277E677F004738BF /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				53C3632F277E677F004738BF /* HttpInterface.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		53C36330277E677F004738BF /* service */ = {
+			isa = PBXGroup;
+			children = (
+				53C36331277E677F004738BF /* HttpService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		53C36332277E677F004738BF /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				53C36333277E677F004738BF /* GeneralHelper.swift */,
+				53C36334277E677F004738BF /* HttpHelper.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
 		53F6826B277E20C600C68DBA = {
 			isa = PBXGroup;
 			children = (
 				53F68276277E20C600C68DBA /* SlashTechnicalTest */,
 				53F68275277E20C600C68DBA /* Products */,
+				FA2739847B7588E87ACCAFE3 /* Pods */,
+				CBC7548E4D09287247C75FAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,10 +135,15 @@
 		53F68276277E20C600C68DBA /* SlashTechnicalTest */ = {
 			isa = PBXGroup;
 			children = (
+				53F68285277E20C800C68DBA /* Info.plist */,
 				53F68280277E20C800C68DBA /* Assets.xcassets */,
 				53F6828D277E215100C68DBA /* general */,
+				53C36332277E677F004738BF /* helper */,
+				53C36327277E677E004738BF /* object */,
+				53C3632E277E677F004738BF /* protocol */,
+				53C36329277E677F004738BF /* resource */,
+				53C36330277E677F004738BF /* service */,
 				53F6828B277E213100C68DBA /* ui */,
-				53F68285277E20C800C68DBA /* Info.plist */,
 			);
 			path = SlashTechnicalTest;
 			sourceTree = "<group>";
@@ -101,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				53F68277277E20C600C68DBA /* AppDelegate.swift */,
+				53C3632D277E677F004738BF /* GlobalVariables.swift */,
 				53F68279277E20C600C68DBA /* SceneDelegate.swift */,
 			);
 			path = general;
@@ -116,6 +187,23 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		CBC7548E4D09287247C75FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35530E789E03CEA34B2D2B0D /* Pods_SlashTechnicalTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2739847B7588E87ACCAFE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1EB20C3142D0237C0436CCB /* Pods-SlashTechnicalTest.debug.xcconfig */,
+				ABDEF4B01EF64AEA50A4CAE0 /* Pods-SlashTechnicalTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53F68288277E20C800C68DBA /* Build configuration list for PBXNativeTarget "SlashTechnicalTest" */;
 			buildPhases = (
+				892D8813C1C8C7A0DFB6C010 /* [CP] Check Pods Manifest.lock */,
 				53F68270277E20C600C68DBA /* Sources */,
 				53F68271277E20C600C68DBA /* Frameworks */,
 				53F68272277E20C600C68DBA /* Resources */,
+				C243D3294E4F6F736DF72EEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,7 +242,7 @@
 				};
 			};
 			buildConfigurationList = 53F6826F277E20C600C68DBA /* Build configuration list for PBXProject "SlashTechnicalTest" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -182,14 +272,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		892D8813C1C8C7A0DFB6C010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlashTechnicalTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C243D3294E4F6F736DF72EEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlashTechnicalTest/Pods-SlashTechnicalTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlashTechnicalTest/Pods-SlashTechnicalTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlashTechnicalTest/Pods-SlashTechnicalTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53F68270277E20C600C68DBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				53F68290277E221000C68DBA /* GroupListViewController.swift in Sources */,
+				53C36335277E677F004738BF /* HttpObject.swift in Sources */,
 				5331B49F277E296D002C31F4 /* GroupListCell.swift in Sources */,
+				53C36339277E677F004738BF /* HttpInterface.swift in Sources */,
+				53C36336277E677F004738BF /* UrlPetition.swift in Sources */,
+				53C3633A277E677F004738BF /* HttpService.swift in Sources */,
+				53C36338277E677F004738BF /* GlobalVariables.swift in Sources */,
 				53F68292277E223300C68DBA /* GroupDetailViewController.swift in Sources */,
+				53C36337277E677F004738BF /* HttpCheckConnection.swift in Sources */,
+				53C3633C277E677F004738BF /* HttpHelper.swift in Sources */,
+				53C3633B277E677F004738BF /* GeneralHelper.swift in Sources */,
 				53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */,
 				53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */,
 				53F68294277E224F00C68DBA /* GroupFavouriteListViewController.swift in Sources */,
@@ -336,6 +476,7 @@
 		};
 		53F68289277E20C800C68DBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EB20C3142D0237C0436CCB /* Pods-SlashTechnicalTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,6 +505,7 @@
 		};
 		53F6828A277E20C800C68DBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDEF4B01EF64AEA50A4CAE0 /* Pods-SlashTechnicalTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
