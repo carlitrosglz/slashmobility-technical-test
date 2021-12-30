@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		39608AD24CAD407CE16EBFFD /* Pods_SlashTechnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA2358B84FDC3C1E0F9DD69 /* Pods_SlashTechnicalTest.framework */; };
+		53217F40277E3C67008D120B /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53217F3F277E3C67008D120B /* HttpService.swift */; };
+		53217F44277E3CCD008D120B /* UrlPetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53217F43277E3CCD008D120B /* UrlPetition.swift */; };
+		53217F47277E3F14008D120B /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53217F46277E3F14008D120B /* GeneralHelper.swift */; };
+		53217F49277E3F90008D120B /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53217F48277E3F90008D120B /* HttpHelper.swift */; };
+		53217F4C277E41A1008D120B /* HttpInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53217F4B277E41A1008D120B /* HttpInterface.swift */; };
+		53217F4F277E41E2008D120B /* HttpObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53217F4E277E41E2008D120B /* HttpObject.swift */; };
+		53217F51277E4322008D120B /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53217F50277E4322008D120B /* GlobalVariables.swift */; };
+		53217F53277E4C9D008D120B /* HttpCheckConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53217F52277E4C9D008D120B /* HttpCheckConnection.swift */; };
 		53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68277277E20C600C68DBA /* AppDelegate.swift */; };
 		53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68279277E20C600C68DBA /* SceneDelegate.swift */; };
 		53F6827C277E20C600C68DBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6827B277E20C600C68DBA /* ViewController.swift */; };
@@ -18,6 +26,14 @@
 
 /* Begin PBXFileReference section */
 		2552D1DD4E3D5A821D2F083D /* Pods-SlashTechnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlashTechnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-SlashTechnicalTest/Pods-SlashTechnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
+		53217F3F277E3C67008D120B /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		53217F43277E3CCD008D120B /* UrlPetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlPetition.swift; sourceTree = "<group>"; };
+		53217F46277E3F14008D120B /* GeneralHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralHelper.swift; sourceTree = "<group>"; };
+		53217F48277E3F90008D120B /* HttpHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
+		53217F4B277E41A1008D120B /* HttpInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpInterface.swift; sourceTree = "<group>"; };
+		53217F4E277E41E2008D120B /* HttpObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpObject.swift; sourceTree = "<group>"; };
+		53217F50277E4322008D120B /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		53217F52277E4C9D008D120B /* HttpCheckConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpCheckConnection.swift; sourceTree = "<group>"; };
 		53F68274277E20C600C68DBA /* SlashTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlashTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F68277277E20C600C68DBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F68279277E20C600C68DBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +58,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53217F41277E3CB2008D120B /* service */ = {
+			isa = PBXGroup;
+			children = (
+				53217F3F277E3C67008D120B /* HttpService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		53217F42277E3CB9008D120B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				53217F43277E3CCD008D120B /* UrlPetition.swift */,
+				53217F52277E4C9D008D120B /* HttpCheckConnection.swift */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		53217F45277E3F09008D120B /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				53217F46277E3F14008D120B /* GeneralHelper.swift */,
+				53217F48277E3F90008D120B /* HttpHelper.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		53217F4A277E4197008D120B /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				53217F4B277E41A1008D120B /* HttpInterface.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		53217F4D277E41DA008D120B /* object */ = {
+			isa = PBXGroup;
+			children = (
+				53217F4E277E41E2008D120B /* HttpObject.swift */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+		53217F54277E555B008D120B /* general */ = {
+			isa = PBXGroup;
+			children = (
+				53217F50277E4322008D120B /* GlobalVariables.swift */,
+			);
+			path = general;
+			sourceTree = "<group>";
+		};
 		53F6826B277E20C600C68DBA = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +129,19 @@
 		53F68276277E20C600C68DBA /* SlashTechnicalTest */ = {
 			isa = PBXGroup;
 			children = (
+				53F68285277E20C800C68DBA /* Info.plist */,
 				53F68277277E20C600C68DBA /* AppDelegate.swift */,
 				53F68279277E20C600C68DBA /* SceneDelegate.swift */,
 				53F6827B277E20C600C68DBA /* ViewController.swift */,
-				53F6827D277E20C600C68DBA /* Main.storyboard */,
 				53F68280277E20C800C68DBA /* Assets.xcassets */,
 				53F68282277E20C800C68DBA /* LaunchScreen.storyboard */,
-				53F68285277E20C800C68DBA /* Info.plist */,
+				53F6827D277E20C600C68DBA /* Main.storyboard */,
+				53217F54277E555B008D120B /* general */,
+				53217F45277E3F09008D120B /* helper */,
+				53217F4D277E41DA008D120B /* object */,
+				53217F4A277E4197008D120B /* protocol */,
+				53217F42277E3CB9008D120B /* resource */,
+				53217F41277E3CB2008D120B /* service */,
 			);
 			path = SlashTechnicalTest;
 			sourceTree = "<group>";
@@ -80,7 +152,6 @@
 				2552D1DD4E3D5A821D2F083D /* Pods-SlashTechnicalTest.debug.xcconfig */,
 				70FDD029965229E627DCC083 /* Pods-SlashTechnicalTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,9 +278,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53217F44277E3CCD008D120B /* UrlPetition.swift in Sources */,
+				53217F53277E4C9D008D120B /* HttpCheckConnection.swift in Sources */,
 				53F6827C277E20C600C68DBA /* ViewController.swift in Sources */,
+				53217F49277E3F90008D120B /* HttpHelper.swift in Sources */,
+				53217F47277E3F14008D120B /* GeneralHelper.swift in Sources */,
+				53217F51277E4322008D120B /* GlobalVariables.swift in Sources */,
+				53217F40277E3C67008D120B /* HttpService.swift in Sources */,
 				53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */,
+				53217F4F277E41E2008D120B /* HttpObject.swift in Sources */,
 				53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */,
+				53217F4C277E41A1008D120B /* HttpInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ29548UTC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SlashTechnicalTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -387,6 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ29548UTC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SlashTechnicalTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
