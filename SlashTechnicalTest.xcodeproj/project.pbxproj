@@ -16,6 +16,10 @@
 		53C3633A277E677F004738BF /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C36331277E677F004738BF /* HttpService.swift */; };
 		53C3633B277E677F004738BF /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C36333277E677F004738BF /* GeneralHelper.swift */; };
 		53C3633C277E677F004738BF /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C36334277E677F004738BF /* HttpHelper.swift */; };
+		53EC15932781BF2B0087FC0F /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC15922781BF2B0087FC0F /* ParentViewController.swift */; };
+		53EC15962781BF990087FC0F /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC15952781BF990087FC0F /* Literals.swift */; };
+		53EC15982781BFCC0087FC0F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC15972781BFCC0087FC0F /* String.swift */; };
+		53EC159D2781C1300087FC0F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53EC159F2781C1300087FC0F /* Localizable.strings */; };
 		53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68277277E20C600C68DBA /* AppDelegate.swift */; };
 		53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68279277E20C600C68DBA /* SceneDelegate.swift */; };
 		53F6827F277E20C600C68DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F6827D277E20C600C68DBA /* Main.storyboard */; };
@@ -38,6 +42,11 @@
 		53C36331277E677F004738BF /* HttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		53C36333277E677F004738BF /* GeneralHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralHelper.swift; sourceTree = "<group>"; };
 		53C36334277E677F004738BF /* HttpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
+		53EC15922781BF2B0087FC0F /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		53EC15952781BF990087FC0F /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
+		53EC15972781BFCC0087FC0F /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		53EC159E2781C1300087FC0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		53EC15A02781C1340087FC0F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		53F68274277E20C600C68DBA /* SlashTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlashTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F68277277E20C600C68DBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F68279277E20C600C68DBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,8 +92,8 @@
 		53C36329277E677F004738BF /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				53C3632A277E677F004738BF /* UrlPetition.swift */,
-				53C3632B277E677F004738BF /* HttpCheckConnection.swift */,
+				53EC15A12781C2C80087FC0F /* http */,
+				53EC15942781BF8E0087FC0F /* values */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -112,6 +121,24 @@
 				53C36334277E677F004738BF /* HttpHelper.swift */,
 			);
 			path = helper;
+			sourceTree = "<group>";
+		};
+		53EC15942781BF8E0087FC0F /* values */ = {
+			isa = PBXGroup;
+			children = (
+				53EC15952781BF990087FC0F /* Literals.swift */,
+				53EC15972781BFCC0087FC0F /* String.swift */,
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		53EC15A12781C2C80087FC0F /* http */ = {
+			isa = PBXGroup;
+			children = (
+				53C3632A277E677F004738BF /* UrlPetition.swift */,
+				53C3632B277E677F004738BF /* HttpCheckConnection.swift */,
+			);
+			path = http;
 			sourceTree = "<group>";
 		};
 		53F6826B277E20C600C68DBA = {
@@ -173,6 +200,7 @@
 				53F68277277E20C600C68DBA /* AppDelegate.swift */,
 				53C3632D277E677F004738BF /* GlobalVariables.swift */,
 				53F68279277E20C600C68DBA /* SceneDelegate.swift */,
+				53EC159F2781C1300087FC0F /* Localizable.strings */,
 			);
 			path = general;
 			sourceTree = "<group>";
@@ -183,6 +211,7 @@
 				53F6828F277E221000C68DBA /* GroupListViewController.swift */,
 				53F68291277E223300C68DBA /* GroupDetailViewController.swift */,
 				53F68293277E224F00C68DBA /* GroupFavouriteListViewController.swift */,
+				53EC15922781BF2B0087FC0F /* ParentViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -248,6 +277,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 53F6826B277E20C600C68DBA;
 			productRefGroup = 53F68275277E20C600C68DBA /* Products */;
@@ -265,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53F68284277E20C800C68DBA /* LaunchScreen.storyboard in Resources */,
+				53EC159D2781C1300087FC0F /* Localizable.strings in Resources */,
 				53F68281277E20C800C68DBA /* Assets.xcassets in Resources */,
 				53F6827F277E20C600C68DBA /* Main.storyboard in Resources */,
 			);
@@ -328,9 +359,12 @@
 				53C36338277E677F004738BF /* GlobalVariables.swift in Sources */,
 				53F68292277E223300C68DBA /* GroupDetailViewController.swift in Sources */,
 				53C36337277E677F004738BF /* HttpCheckConnection.swift in Sources */,
+				53EC15962781BF990087FC0F /* Literals.swift in Sources */,
 				53C3633C277E677F004738BF /* HttpHelper.swift in Sources */,
 				53C3633B277E677F004738BF /* GeneralHelper.swift in Sources */,
+				53EC15932781BF2B0087FC0F /* ParentViewController.swift in Sources */,
 				53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */,
+				53EC15982781BFCC0087FC0F /* String.swift in Sources */,
 				53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */,
 				53F68294277E224F00C68DBA /* GroupFavouriteListViewController.swift in Sources */,
 			);
@@ -339,6 +373,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		53EC159F2781C1300087FC0F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EC159E2781C1300087FC0F /* en */,
+				53EC15A02781C1340087FC0F /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		53F6827D277E20C600C68DBA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -423,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

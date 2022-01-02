@@ -17,7 +17,7 @@ class HttpService {
             sendHttpPetition(objectHttp: objectHttp, httpInterface: httpInterface)
             
         } else {
-            objectHttp.response = ["ko", "En estos momentos no hay conexión. Inténtalo de nuevo más tarde."]
+            objectHttp.response = ["ko", Literals.msg_no_internet]
             httpInterface.onHttpResponse(response: objectHttp)
         }
     }
@@ -44,7 +44,7 @@ class HttpService {
     }
     
     private func processResponse(data: JSON, objectHttp: HttpObject, httpInterface: HttpInterface) {
-        objectHttp.response = ["ok", "La petición se ha realizado correctamente."]
+        objectHttp.response = ["ok", Literals.msg_petition_successful]
         objectHttp.data     = data
         
         httpInterface.onHttpResponse(response: objectHttp)

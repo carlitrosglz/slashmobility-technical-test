@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  SlashTechnicalTest
+
+  Created by Innova Suiff on 2/1/22.
+  
+*/
+
+// General strings
+"app_name" = "SlashMobility Test";
+
+// Error and informative messages
+"msg_no_internet"         = "Right now there is no connection. Try again later.";
+"msg_petition_successful" = "The request has been successful.";

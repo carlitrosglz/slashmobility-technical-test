@@ -83,10 +83,6 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="h1e-cc-Pls"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="8eZ-Pn-1Ao"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
