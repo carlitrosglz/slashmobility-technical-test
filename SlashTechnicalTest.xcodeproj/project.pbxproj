@@ -20,6 +20,9 @@
 		53EC15962781BF990087FC0F /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC15952781BF990087FC0F /* Literals.swift */; };
 		53EC15982781BFCC0087FC0F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC15972781BFCC0087FC0F /* String.swift */; };
 		53EC159D2781C1300087FC0F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53EC159F2781C1300087FC0F /* Localizable.strings */; };
+		53EC15A42781C5510087FC0F /* GroupListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC15A32781C5510087FC0F /* GroupListPresenter.swift */; };
+		53EC15A62781C9E10087FC0F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC15A52781C9E10087FC0F /* Group.swift */; };
+		53EC15A8278213380087FC0F /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC15A7278213380087FC0F /* DateHelper.swift */; };
 		53F68278277E20C600C68DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68277277E20C600C68DBA /* AppDelegate.swift */; };
 		53F6827A277E20C600C68DBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F68279277E20C600C68DBA /* SceneDelegate.swift */; };
 		53F6827F277E20C600C68DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F6827D277E20C600C68DBA /* Main.storyboard */; };
@@ -47,6 +50,9 @@
 		53EC15972781BFCC0087FC0F /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		53EC159E2781C1300087FC0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		53EC15A02781C1340087FC0F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		53EC15A32781C5510087FC0F /* GroupListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListPresenter.swift; sourceTree = "<group>"; };
+		53EC15A52781C9E10087FC0F /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		53EC15A7278213380087FC0F /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		53F68274277E20C600C68DBA /* SlashTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlashTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F68277277E20C600C68DBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F68279277E20C600C68DBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				53C36328277E677E004738BF /* HttpObject.swift */,
+				53EC15A52781C9E10087FC0F /* Group.swift */,
 			);
 			path = object;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			children = (
 				53C36333277E677F004738BF /* GeneralHelper.swift */,
 				53C36334277E677F004738BF /* HttpHelper.swift */,
+				53EC15A7278213380087FC0F /* DateHelper.swift */,
 			);
 			path = helper;
 			sourceTree = "<group>";
@@ -139,6 +147,14 @@
 				53C3632B277E677F004738BF /* HttpCheckConnection.swift */,
 			);
 			path = http;
+			sourceTree = "<group>";
+		};
+		53EC15A22781C53E0087FC0F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				53EC15A32781C5510087FC0F /* GroupListPresenter.swift */,
+			);
+			path = presenter;
 			sourceTree = "<group>";
 		};
 		53F6826B277E20C600C68DBA = {
@@ -167,6 +183,7 @@
 				53F6828D277E215100C68DBA /* general */,
 				53C36332277E677F004738BF /* helper */,
 				53C36327277E677E004738BF /* object */,
+				53EC15A22781C53E0087FC0F /* presenter */,
 				53C3632E277E677F004738BF /* protocol */,
 				53C36329277E677F004738BF /* resource */,
 				53C36330277E677F004738BF /* service */,
@@ -355,9 +372,12 @@
 				5331B49F277E296D002C31F4 /* GroupListCell.swift in Sources */,
 				53C36339277E677F004738BF /* HttpInterface.swift in Sources */,
 				53C36336277E677F004738BF /* UrlPetition.swift in Sources */,
+				53EC15A8278213380087FC0F /* DateHelper.swift in Sources */,
 				53C3633A277E677F004738BF /* HttpService.swift in Sources */,
+				53EC15A62781C9E10087FC0F /* Group.swift in Sources */,
 				53C36338277E677F004738BF /* GlobalVariables.swift in Sources */,
 				53F68292277E223300C68DBA /* GroupDetailViewController.swift in Sources */,
+				53EC15A42781C5510087FC0F /* GroupListPresenter.swift in Sources */,
 				53C36337277E677F004738BF /* HttpCheckConnection.swift in Sources */,
 				53EC15962781BF990087FC0F /* Literals.swift in Sources */,
 				53C3633C277E677F004738BF /* HttpHelper.swift in Sources */,

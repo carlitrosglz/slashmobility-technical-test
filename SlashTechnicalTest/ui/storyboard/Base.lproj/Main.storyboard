@@ -32,7 +32,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f8h-p9-G2q">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WLQ-Jd-agL">
+                                <rect key="frame" x="183.5" y="408" width="47" height="79"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BjL-VK-Kem">
+                                        <rect key="frame" x="0.0" y="0.0" width="47" height="79"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YS3-NV-9d1">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="37"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="bUn-0N-j8C">
+                                                <rect key="frame" x="5" y="42" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="BjL-VK-Kem" firstAttribute="top" secondItem="WLQ-Jd-agL" secondAttribute="top" id="2Wc-Mq-Whx"/>
+                                    <constraint firstAttribute="trailing" secondItem="BjL-VK-Kem" secondAttribute="trailing" id="Buw-9O-Wkq"/>
+                                    <constraint firstAttribute="bottom" secondItem="BjL-VK-Kem" secondAttribute="bottom" id="WK4-gw-sEM"/>
+                                    <constraint firstItem="BjL-VK-Kem" firstAttribute="leading" secondItem="WLQ-Jd-agL" secondAttribute="leading" id="oDh-fs-hnd"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f8h-p9-G2q">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -50,19 +76,19 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcq-N1-OqM" userLabel="Name">
-                                                    <rect key="frame" x="20" y="11" width="45" height="21"/>
+                                                    <rect key="frame" x="20" y="11" width="45" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgW-x9-BLo" userLabel="Date">
-                                                    <rect key="frame" x="358" y="11" width="36" height="21"/>
+                                                    <rect key="frame" x="358" y="11" width="36" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description short" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pH-aw-rpx" userLabel="Description short">
-                                                    <rect key="frame" x="20" y="168.5" width="131.5" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description short" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pH-aw-rpx" userLabel="Description short">
+                                                    <rect key="frame" x="20" y="169" width="131.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -81,6 +107,12 @@
                                                 <constraint firstAttribute="trailing" secondItem="D02-Gb-80k" secondAttribute="trailing" id="hNM-IS-LNi"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="date" destination="pgW-x9-BLo" id="c1j-KH-jAO"/>
+                                            <outlet property="descriptionShort" destination="3pH-aw-rpx" id="mp7-pJ-PKO"/>
+                                            <outlet property="groupImage" destination="D02-Gb-80k" id="pIy-Dl-XA1"/>
+                                            <outlet property="name" destination="kcq-N1-OqM" id="pKB-mz-X6c"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -89,14 +121,19 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f8h-p9-G2q" secondAttribute="bottom" id="1Px-By-YMD"/>
+                            <constraint firstItem="WLQ-Jd-agL" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-27.5" id="IrL-aQ-vJ9"/>
                             <constraint firstItem="f8h-p9-G2q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="No6-9A-d6I"/>
+                            <constraint firstItem="WLQ-Jd-agL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Pmn-lG-wHe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f8h-p9-G2q" secondAttribute="trailing" id="gXD-Jt-kje"/>
                             <constraint firstItem="f8h-p9-G2q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xYq-3U-nMd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PmQ-Ja-AWX"/>
                     <connections>
+                        <outlet property="container_view_loading" destination="WLQ-Jd-agL" id="uZa-gh-Jrw"/>
+                        <outlet property="progress_indicator" destination="bUn-0N-j8C" id="zts-TN-pRo"/>
                         <outlet property="table_view" destination="f8h-p9-G2q" id="cQT-2P-4rs"/>
+                        <outlet property="tv_loading" destination="YS3-NV-9d1" id="Pgv-RA-02x"/>
                         <segue destination="0an-wz-ar0" kind="show" identifier="segueToGroupDetailViewController" id="hw8-Rg-RAa"/>
                     </connections>
                 </viewController>
