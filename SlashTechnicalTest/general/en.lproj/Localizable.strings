@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  SlashTechnicalTest
+
+  Created by Innova Suiff on 2/1/22.
+  
+*/
+
+// General strings
+"app_name" = "SlashMobility Test";
+
+// Error and informative messages
+"msg_no_internet"           = "Right now there is no connection. Try again later.";
+"msg_petition_successful"   = "The request has been successful.";
+"msg_error_download_groups" = "Failed to download groups.";
+"msg_loading_groups"        = "Downloading groups...";
+"msg_no_groups"             = "There are not any groups.";
+
+// Alert controller literals
+"alert_error_title"         = "Error";
+"alert_error_accept_button" = "Accept";

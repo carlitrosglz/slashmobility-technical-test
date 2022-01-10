@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "35U-Ot-nRP"; */
+"35U-Ot-nRP.text" = "Label";
+
+/* Class = "UILabel"; text = "Description short"; ObjectID = "3pH-aw-rpx"; */
+"3pH-aw-rpx.text" = "Description short";
+
+/* Class = "UIViewController"; title = "Group List View Controller"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Group List View Controller";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "UG2-H6-c7l"; */
+"UG2-H6-c7l.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UG2-H6-c7l"; */
+"UG2-H6-c7l.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Group Favourite List VC"; ObjectID = "V1b-xo-HXj"; */
+"V1b-xo-HXj.text" = "Group Favourite List VC";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "kcq-N1-OqM"; */
+"kcq-N1-OqM.text" = "Name";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "pgW-x9-BLo"; */
+"pgW-x9-BLo.text" = "Date";
